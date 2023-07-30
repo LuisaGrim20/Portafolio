@@ -1,0 +1,89 @@
+body{
+ 
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    background: #f2f2f2;
+    font-size: 15px;
+    color: #70757a;
+}
+
+.bg-primary{
+    background-color: #fd9843!important;
+}
+
+.nav-link{
+    color: #a14f0c!important;
+}
+
+.text-bg-primary {
+    background-color: #fd9843!important;
+}
+
+.titulo-proyecto{
+    text-shadow: 2px 5px 30px #c7eff5;
+}
+
+.carousel-item{
+    height: 450px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #000000;
+    height: 5px;
+}
+
+.carousel-caption{
+    color:rgb(0, 0, 0);
+}
+
+.icono{
+    width: 50px;
+}
+
+#footer-listas{
+    display: flex;
+    justify-content: space-between;
+    border-top-style: ridge;
+}
+
+#footer-listas ul li{
+    padding: 15px;
+}
+
+#secciones img {
+    width: 500px; /* Establecer el ancho deseado */
+    height: 350px; /* Establecer la altura deseada */
+    object-fit: cover; /* Ajusta las imágenes al tamaño del contenedor sin deformarlas */
+}
+
+/* Centrar verticalmente las imágenes */
+.div-img {
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    height: 350px; /* Establecer la altura deseada */
+    width: 500;
+}
+
+
+.div-img img {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+a:link, a:visited,  a:hover, a:active
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+.texto-negro {
+    color: black;
+}
+
